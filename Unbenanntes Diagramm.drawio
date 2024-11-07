@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Seite-1" id="DnXB-zZTz2Z56x0SJixp">
-    <mxGraphModel dx="794" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="562" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TPI1LNmROSnbRB8zEQOW-1" value="hi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="TPI1LNmROSnbRB8zEQOW-2" value="001 -&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Look and Feel - Grafische Nutzeroberfläche (GUI)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TPI1LNmROSnbRB8zEQOW-3" value="002 - Look and Feel&lt;div&gt;&amp;nbsp;- Lables&lt;div&gt;(Beschriftung der Eingabefelder)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
