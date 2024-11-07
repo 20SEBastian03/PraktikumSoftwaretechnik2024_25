@@ -10,6 +10,9 @@
         <mxCell id="TPI1LNmROSnbRB8zEQOW-3" value="002 - Look and Feel&lt;div&gt;&amp;nbsp;- Lables&lt;div&gt;(Beschriftung der Eingabefelder)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="310" width="220" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TPI1LNmROSnbRB8zEQOW-5" value="003" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
