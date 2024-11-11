@@ -1,23 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Seite-1" id="DnXB-zZTz2Z56x0SJixp">
-    <mxGraphModel dx="1562" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TPI1LNmROSnbRB8zEQOW-2" value="001 -&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Look and Feel - Grafische Nutzeroberfläche (GUI)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="160" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="TPI1LNmROSnbRB8zEQOW-3" value="002 - Look and Feel&lt;div&gt;&amp;nbsp;- Lables&lt;div&gt;(Beschriftung der Eingabefelder)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="310" width="220" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="53tc38JX_SwPdcK8660q-1" value="004 - Look and Feel-GUI-wenige Tabs/Slides" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="175" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TPI1LNmROSnbRB8zEQOW-5" value="003 -&amp;nbsp;Look and Feel - Usablity" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="TPI1LNmROSnbRB8zEQOW-5" value="003 -&amp;nbsp;Look and Feel - Usablity - angepasstes Farbschema" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="53tc38JX_SwPdcK8660q-2" value="005" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="53tc38JX_SwPdcK8660q-2" value="005 - Tablet UI / optimiert für Touch Interface" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-7" value="006 - Performance - schnelle Antwortzeit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-8" value="007 - Wartbarkeit und Support" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-9" value="008 - Datensicherheit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-10" value="009 - Gesetzliche Anforderungen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-11" value="010 - Kulturelles (DE Spracheinstellungen)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;001 -&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Look and Feel - Grafische Nutzeroberfläche (GUI)&lt;/span&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="104" y="260" width="310" height="50" as="geometry">
+            <mxRectangle x="390" y="380" width="160" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-13" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="BMYMCdN_uTUJN-gc38pX-12">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-14" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;002 - Look and Feel&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;- Lables&lt;div&gt;(Beschriftung der Eingabefelder)&lt;/div&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="104" y="350" width="310" height="50" as="geometry">
+            <mxRectangle x="390" y="380" width="160" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYMCdN_uTUJN-gc38pX-15" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="BMYMCdN_uTUJN-gc38pX-14">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
