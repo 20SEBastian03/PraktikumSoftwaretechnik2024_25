@@ -4,3 +4,10 @@ PostgreSQL
 Git
 Github CLI
 Django
+
+What to do first:
+Install git and configure
+Create your new directory where you work an initlialize git
+Install Github CLI and authenticate
+Clone our Github reporitoty into your directory
+
