@@ -10,4 +10,17 @@ Install git and configure
 Create your new directory where you work an initlialize git
 Install Github CLI and authenticate
 Clone our Github reporitoty into your directory
+try to pull from ou gh repository to check if it worked
+
+Create a databank called "db" via psql
+Create a psql user called "django_user" with the password "IchLiebeGA"
+Give that user all priviliges for db
+
+Create your virtual environment
+Activate your virtual environment
+Downland django via pip
+pip install psycopg2
+go to ../DigiDash/
+try the command "py manage.py migrate" to apply changes and check if everything works
+
 
