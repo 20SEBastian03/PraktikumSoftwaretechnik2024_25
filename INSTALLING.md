@@ -31,7 +31,7 @@ By default, for this app you can use the following commands to create the Postgr
 * *after hitting Enter, the command prompt should change and show `db=#` before the cursor*<br>
 
 **2.2.2** Create the User "django_user" and give it all necessary privileges for the DB.<br>
-Please copy and paste the following commands behind `db=#` to your terminal, one after one:<br>
+Please copy and paste the following commands behind `db=#` to your terminal, one after one:<br><br>
   `CREATE USER django_user WITH PASSWORD 'IchLiebeGA;'`<br>
   `GRANT USAGE ON SCHEMA public TO django_user;`<br>
   `GRANT CREATE ON SCHEMA public TO django_user;`<br>
@@ -97,4 +97,4 @@ The server runs at port http://127.0.0.1:8000/<br>
 Visit [this address](http://127.0.0.1:8000/) in your browser to get to the starting page.
 
 To go to the admin site, use the following link:<br>http://127.0.0.1:8000/admin/.<br>
-Use the username and password we defined earlier to login. 
+To login there, use the username and password we defined earlier.
