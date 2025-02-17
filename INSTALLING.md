@@ -18,6 +18,7 @@ First, install the following programms:<br>
 *(usually, pip is automatically installed when installing python downloaded 
 from [python.org](https://www.python.org/downloads/))*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[django](https://www.djangoproject.com/download/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[PostgreSQL](https://sbp.enterprisedb.com/getfile.jsp?fileid=1259363)<br>
 
 ## 2.2 Prerequisites
 
