@@ -5,6 +5,7 @@ PIP<br>
 PostgreSQL<br>
 
 pipenv<br>
+django<br>
 psycopg2<br>
 Pillow<br><br>
 
