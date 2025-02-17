@@ -12,20 +12,22 @@ Pillow<br><br>
 
 ## 2.1 Install Dependencies
 
-Install:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;python<br>
-&nbsp;&nbsp;&nbsp;&nbsp;pip<br>
-&nbsp;&nbsp;&nbsp;&nbsp;django<br>
+First, install the following programms:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[python](https://www.python.org/downloads/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[PIP](https://pip.pypa.io/en/stable/installation/) 
+*(usually, pip is automatically installed when installing python downloaded 
+from [python.org](https://www.python.org/downloads/))*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[django](https://www.djangoproject.com/download/)<br>
 
 ## 2.2 Prerequisites
 
-A PostgresSQL Database should be used instead of the Django-default SQLite Database,<br> 
-we have to create a Postgres Database accessible by django.<br>
-To do this, just open a Terminal anywhere and follow the next steps.<br>
-By default, for this App you can use this commands to create the Postgres Database:<br>
+We have to create a PostgreSQL Database accessible by django, <br> instead of the django-default SQLite Database.<br>
+To do this, just open a terminal anywhere and follow the next steps.<br>
+By default, for this app you can use the following commands to create the PostgreSQL Database:<br>
 
-**2.2.1** Create the database with the default psql superuser<br>
-  `psql -U postgres db`<br> --> after hitting Enter, the command prompt should change and show `db=#` before the cursor<br>
+**2.2.1** Create the database with the default psql superuser (in this case the superuser is called `postgres`)<br>
+  `psql -U PostgreSQL db`<br>
+* *after hitting Enter, the command prompt should change and show `db=#` before the cursor*<br>
 
 **2.2.2** Create the User "django_user" and give it all necessary privileges for the DB.<br>
 Please copy and paste the following commands behind `db=#` to your terminal, one after one:<br>
@@ -38,7 +40,7 @@ Please copy and paste the following commands behind `db=#` to your terminal, one
 
 ## 2.3 Install the Project Files
 
-There are multiple ways to get the Projectfiles from our GitHub Repository.
+There are multiple ways to get the project files from our GitHub repository.
 
 Here are 2 examples:<br>
 
@@ -51,39 +53,47 @@ Here are 2 examples:<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;b) Download it as a .ZIP from https://github.com/totomate22/SEBackend.<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Afterwards extract the archive to the desired location on your PC.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then please open a Terminal at the folder you extracted the .ZIP to and go on to the next step.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then please open a terminal at the folder you extracted the .ZIP to and go on to the next step.
 
 If you followed the steps before, you should now have a directory with the project files.
 
-## 2.4 Create a Python Virtual Environment
+## 2.4 Create a Python virtual environment
 
-Inside SEBackend there should be a Folder called DigiDish.<br>
-Please open this Folder in a Terminal (or `cd` into it, if your terminal session from the steps before is still active).
+Inside SEBackend there should be a folder called DigiDish.<br>
+Please open this folder in a terminal (or `cd` into it, if your terminal session from the steps before is still active).
 
-**Inside** Digi Dish:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Install pipenv for simply creating a Virtual Environment:<br>
+**Inside** DigiDish folder:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Install pipenv for simply creating a virtual environment:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`pip install pipenv`
 
-&nbsp;&nbsp;&nbsp;&nbsp;Install the project dependencies in the Virtual Environment with the following command:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`pipenv install django psycopg2 Pillow`<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Install the project dependencies in the virtual environment with the following command:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`pipenv install qrcode django psycopg2 Pillow`<br><br>
 
 
-# 3 Getting started
+# 3. Getting started
 
 ### Important!<br>
 To run the project, 
-it is required to have the Virtual Environment with the Dependencies installed ***active***<br>
+it is required to have the virtual environment with the dependencies installed ***active***<br>
 
-Please open a Terminal **inside** Digi Dish Folder or (`cd` into it)
-and activate the Virtual Environment with the following command<br> `pipenv shell`<br>
+Please open a terminal **inside** DigiDish folder or (`cd` into it)
+and activate the virtual environment with the following command<br> `pipenv shell`<br>
 
-### With the Virtual Envrionment **active**<br>
+### Final Steps - inside **active** Virtual Envrionment <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Create your Admin Login Credentials:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Create your django-admin login credentials:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`python manage.py createsuperuser`
 
-&nbsp;&nbsp;&nbsp;&nbsp;Migrate the Database:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Migrate the database:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`python manage.py migrate`
 
 &nbsp;&nbsp;&nbsp;&nbsp;Run the server:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`python manage.py runserver`
+
+**You are now ready to go**
+
+The server runs at port http://127.0.0.1:8000/<br>
+Visit [this address](http://127.0.0.1:8000/) in your browser to get to the starting page.
+
+To go to the admin site, use the following link:<br>http://127.0.0.1:8000/admin/.<br>
+Use the username and password we defined earlier to login. 
