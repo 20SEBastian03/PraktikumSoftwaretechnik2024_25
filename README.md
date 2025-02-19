@@ -109,7 +109,7 @@ To login there, use the username and password we defined earlier.
 
 ### Links
 
-&nbsp;&nbsp;&nbsp;&nbsp;[django](https://www.djangoproject.com/download/)<br>
+[django](https://www.djangoproject.com/download/)<br>
 
 **Backend Repo:**
 https://github.com/totomate22/SEBackend
