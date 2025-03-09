@@ -6,9 +6,6 @@
 
 **1. Use-Case: "Standortleitung erstellen"**
 
-- Beim Anlegen einer Person mit Behinderung soll außerdem automatisch ein QR-Code erstellt werden, 
-    welcher lediglich eine ID für die Person codiert und bei der Essensausgabe mit dem Tablet des Küchenpersonals ausgelesen werden kann.
-
 **2. Use-Case: "Gruppenleitung erstellen"**
 
 
@@ -24,6 +21,9 @@
 **4. Use-Case: "Küchenleitung erstellen und Vertretung zuweisen"**
 
 **5. Use-Case: "Mitarbeiter mit QR-Code erstellen und Gruppe zuweisen"**
+
+- Beim Anlegen einer Person mit Behinderung soll außerdem automatisch ein QR-Code erstellt werden, 
+    welcher lediglich eine ID für die Person codiert und bei der Essensausgabe mit dem Tablet des Küchenpersonals ausgelesen werden kann.
 
 ## Gruppenleitung
 
